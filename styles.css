@@ -8,6 +8,10 @@
     color: #0D1321;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -319,7 +323,7 @@ header nav button {
 }
 
 #support {
-    margin: 49px 150px 0px;
+    margin: 49px 150px 80px;
     text-align: center;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(images/handshake.jpg) lightgray 50% / cover no-repeat;
@@ -377,4 +381,22 @@ header nav button {
     font-weight: 600;
     padding: 20px 17px;
     cursor: pointer;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+#footer p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#footer img {
+    height: 36px;
+    margin-left: 24px;
 }
