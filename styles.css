@@ -96,7 +96,7 @@ header nav button {
     background: rgba(13, 19, 33, 0.02);
 }
 
-#why-web-dev>h1 {
+#why-web-dev>h2 {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
@@ -104,12 +104,13 @@ header nav button {
 }
 
 #why-web-dev>p {
+    max-width: 850px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
     text-align: center;
-    margin: 0px 47px 48px;
+    margin: 0px auto 48px;
 }
 
 .why-web-dev-card {
@@ -128,7 +129,7 @@ header nav button {
 }
 
 
-.why-web-dev-card-text h2 {
+.why-web-dev-card-text h3 {
     color: rgba(13, 19, 33, 0.70);
     font-size: 24px;
     font-weight: 700;
@@ -174,11 +175,12 @@ header nav button {
 }
 
 #My-Inspiration>p {
+    max-width: 850px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
 }
 
 #My-Inspiration>div {
@@ -207,11 +209,12 @@ header nav button {
 }
 
 #My-Current-Target>p {
+    max-width: 850px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
 }
 
 .current-target-card-container {
@@ -282,11 +285,12 @@ header nav button {
 }
 
 #My-Next-Target>p {
+    max-width: 850px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
 }
 
 .next-target-card-container {
