@@ -184,3 +184,77 @@ header nav button {
     width: 100%;
     border-radius: 16px;
 }
+
+#My-Current-Target {
+    margin: 151px 150px 0px;
+    text-align: center;
+}
+
+#My-Current-Target>h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#My-Current-Target>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+.current-target-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    text-align: left;
+}
+
+.current-target-card {
+    padding: 40px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.current-target-card img {
+    margin-bottom: 24px;
+    width: 56px;
+    height: 56px;
+}
+
+.current-target-card h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.current-target-card p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 44px;
+}
+
+.current-target-card a{
+font-size: 16px;
+font-weight: 700;
+text-decoration-line: underline;
+position: absolute;
+bottom: 40px;
+left: 40px;
+}
+
+.html-bg-color {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-bg-color {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-bg-color {
+    background: rgba(255, 223, 0, 0.05);
+}
