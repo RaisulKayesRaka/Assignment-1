@@ -238,13 +238,13 @@ header nav button {
     margin-bottom: 44px;
 }
 
-.current-target-card a{
-font-size: 16px;
-font-weight: 700;
-text-decoration-line: underline;
-position: absolute;
-bottom: 40px;
-left: 40px;
+.current-target-card a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
 }
 
 .html-bg-color {
@@ -257,4 +257,63 @@ left: 40px;
 
 .js-bg-color {
     background: rgba(255, 223, 0, 0.05);
+}
+
+#My-Next-Target {
+    margin: 111px 150px 0px;
+    text-align: center;
+}
+
+#My-Next-Target>h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#My-Next-Target>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+.next-target-card-container {
+    text-align: left;
+}
+
+.next-target-card {
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-bottom: 24px;
+}
+
+.next-target-card img {
+    height: 88px;
+}
+
+.next-target-card h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.next-target-card p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.next-target-card a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
